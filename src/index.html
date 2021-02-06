@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Пешка — магазин шахмат</title>
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+	<link
+		rel="stylesheet"
+		href="https://unpkg.com/swiper/swiper-bundle.min.css"
+	/>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&family=Montserrat:wght@500;600;700&family=Roboto:wght@400;500&family=Ubuntu:wght@700&display=swap"
+		rel="stylesheet"
+	/>
+	<link rel="stylesheet" href="./css/main.css" />
+	<link
+		rel="shortcut icon"
+		href="./img/logo-company.svg"
+		type="image/x-icon"
+	/>
+</head>
+<body>
+	<header class="header">
+		<div class="title-company">
+			<div class="header__logo">
+				<object type="image/svg+xml" data="./img/logo-company.svg"></object>
+			</div>
+			<div class="header__name-company">
+				<h1 class="header__title-company text-uppercase">Пешка</h1>
+				<span class="header__subtitle-company">Магазин шахмат</span>
+			</div>
+		</div>
+		<nav class="nav-main">
+			<a href="#" class="nav-main__item text-uppercase">Главная</a>
+			<a href="#" class="nav-main__item text-uppercase">Акции</a>
+			<a href="#" class="nav-main__item text-uppercase">Категории</a>
+			<a href="#" class="nav-main__item text-uppercase">Новости</a>
+			<a href="#" class="nav-main__item text-uppercase">О нас</a>
+		</nav>
+		<nav class="nav-account">
+			<button class="nav-account__button">
+				<object type="image/svg+xml" data="./img/icons/heart.svg"></object>
+				<span class="nav-account_title">Избранное</span>
+			</button>
+			<button class="nav-account__button">
+				<object type="image/svg+xml" data="./img/icons/user.svg"></object>
+				<span class="nav-account_title">Аккаунт</span>
+			</button>
+			<button class="nav-account__button">
+				<object
+					type="image/svg+xml"
+					data="./img/icons/shopping-cart.svg"
+				></object>
+				<span class="nav-account_title">Корзина</span>
+			</button>
+		</nav>
+	</header>
+
+	<section class="slider-main">
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="slider-main__text">
+						<h2>
+							Ура! Новый мерч уже в продаже: кофты, чехлы и многое другое
+						</h2>
+						<p class="desc">
+							Успей порадовать себя и близких подарками на новый год.
+						</p>
+						<div class="button-descr">
+							<button class="button">Подробнее</button>
+							<small
+								>Ассортимент ограничен, продажи закончаться 1 апреля.</small
+							>
+						</div>
+					</div>
+					<div class="slider-main__img">
+						<img src="./img/slider-main/img-1.png" alt="1" srcset="" />
+					</div>
+				</div>
+				<div class="swiper-slide slide-promokod">
+					<div class="slider-main__text">
+						<h2>
+							Используй промокод <span class="promokod">QUEENSGAMBIT</span> и
+							получи скидку в 25% на все товары
+						</h2>
+						<p class="desc">
+							Успей порадовать себя и близких подарками на новый год.
+						</p>
+						<div class="button-descr">
+							<button class="button">Выбрать товар</button>
+							<small>Промокод действует до 31 декабря.</small>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide slide-tournament">
+					<div class="slider-main__text">
+						<h2>Этим летом мы проведём соревнования “Королевская пешка”</h2>
+						<p class="desc">Соревнования пройдут в восьми города. Ты можешь выиграть поездку в Финляндию, планшет Hauwei, нашу “Светлую доску” и другие призы.</p>
+						<div class="button-descr">
+							<button class="button">Подробнее</button>
+							<small>Ассортимент ограничен, продажи закончаться 1 апреля/
+							</small>
+						</div>
+						<div class="slider-main__img">
+							<img src="./img/slider-main/photo-table.png" alt="1" srcset="" />
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="slider-main__text">
+						<h2>
+							Ура! Новый мерч уже в <br />
+							продаже: кофты, чехлы <br />
+							и многое другое
+						</h2>
+						<p class="desc">
+							Успей порадовать себя и близких подарками на новый год.
+						</p>
+						<div class="button-descr">
+							<button class="button">Подробнее</button>
+							<small
+								>Ассортимент ограничен, продажи закончаться 1 апреля.</small
+							>
+						</div>
+					</div>
+					<div class="slider-main__img">
+						<img src="./img/slider-main/img-1.png" alt="1" srcset="" />
+					</div>
+				</div>
+			</div>
+			<!-- Add Arrows -->
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+			<!-- Add Pagination -->
+			<div class="swiper-pagination"></div>
+		</div>
+	</section>
+
+	<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="./js/script.js"></script>
+</body>
+</html>

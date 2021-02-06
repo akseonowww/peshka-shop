@@ -1,0 +1,43 @@
+.header {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #49342E;
+  color: #fff;
+  height: 8em;
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
+
+.header__name-company {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Montserrat', sans-seriff;
+  font-weight: 300;
+  letter-spacing: 5px;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.header__title-company {
+  color: #FBAB30;
+  font-family: 'Ubuntu Mono', sans-seriff;
+  font-weight: 700;
+}
+
+.header__subtitle-company {
+  font-size: 14px;
+  letter-spacing: 1.5px;
+}
